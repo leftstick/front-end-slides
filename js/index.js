@@ -10,7 +10,7 @@
     'use strict';
 
     // Configure loading modules from the js directory
-    var baseUrl = '/js/';
+    var baseUrl = '/js/front-end-slides/';
 
     requirejs.config({
         baseUrl: baseUrl,
