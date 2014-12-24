@@ -3,7 +3,7 @@
  *  Routes module expose route information used in cover feature
  *
  *  @author  Howard.Zuo
- *  @date    Dec 21th, 2014
+ *  @date    Dec 24th, 2014
  *
  */
 (function (define, require) {
@@ -14,7 +14,6 @@
     define([], function () {
         return [{
             when: '/cover',
-            controller: 'CoverController',
             templateUrl: slides + '/cover/partials/Cover.html',
             position: 1
         }];

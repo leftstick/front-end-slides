@@ -13,18 +13,14 @@
 
     define([
         'angular',
-        './controller/CompatibilityController',
         './Routes'
     ], function (
         angular,
-        CompatibilityController,
         Routes) {
 
         var moduleName = 'compatibility';
 
         var module = angular.module(moduleName, []);
-
-        module.controller('CompatibilityController', CompatibilityController);
 
         return {
             type: 'slides',

@@ -16,7 +16,7 @@
             when: '/overview',
             controller: 'OverViewController',
             templateUrl: slides + '/overview/partials/Overview.html',
-            position: 4
+            position: 6
         }];
     });
 

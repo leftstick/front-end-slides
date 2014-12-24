@@ -1,7 +1,7 @@
 /**
  * ******************************************************************************************************
  *
- *  Defines the cover
+ *  Defines the notjs
  *
  *  @author  Howard.Zuo
  *  @date    Dec 24th, 2014
@@ -18,7 +18,7 @@
         angular,
         Routes) {
 
-        var moduleName = 'cover';
+        var moduleName = 'notjs';
 
         var module = angular.module(moduleName, []);
 

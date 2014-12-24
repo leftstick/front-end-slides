@@ -14,9 +14,8 @@
     define([], function () {
         return [{
             when: '/development',
-            controller: 'DevelopmentController',
             templateUrl: slides + '/development/partials/Development.html',
-            position: 5
+            position: 7
         }];
     });
 

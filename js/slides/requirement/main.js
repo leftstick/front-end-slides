@@ -1,10 +1,10 @@
 /**
  * ******************************************************************************************************
  *
- *  Defines the cover
+ *  Defines the requirement
  *
  *  @author  Howard.Zuo
- *  @date    Dec 22th, 2014
+ *  @date    Dec 24th, 2014
  *
  * ******************************************************************************************************
  */
@@ -13,7 +13,6 @@
 
     define([
         'angular',
-        './controller/RequirementController',
         './Routes'
     ], function (
         angular,
@@ -23,8 +22,6 @@
         var moduleName = 'requirement';
 
         var module = angular.module(moduleName, []);
-
-        module.controller('RequirementController', RequirementController);
 
         return {
             type: 'slides',

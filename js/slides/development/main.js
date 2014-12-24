@@ -4,7 +4,7 @@
  *  Defines the Development
  *
  *  @author  Howard.Zuo
- *  @date    Dec 22th, 2014
+ *  @date    Dec 24th, 2014
  *
  * ******************************************************************************************************
  */
@@ -13,18 +13,14 @@
 
     define([
         'angular',
-        './controller/DevelopmentController',
         './Routes'
     ], function (
         angular,
-        DevelopmentController,
         Routes) {
 
         var moduleName = 'development';
 
         var module = angular.module(moduleName, []);
-
-        module.controller('DevelopmentController', DevelopmentController);
 
         return {
             type: 'slides',

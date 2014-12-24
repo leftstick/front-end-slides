@@ -1,6 +1,6 @@
 /**
  *
- *  Routes module expose route information used in compatibility feature
+ *  Routes module expose route information used in ux feature
  *
  *  @author  Howard.Zuo
  *  @date    Dec 24th, 2014
@@ -13,9 +13,9 @@
 
     define([], function () {
         return [{
-            when: '/compatibility',
-            templateUrl: slides + '/compatibility/partials/Compatibility.html',
-            position: 10
+            when: '/ux',
+            templateUrl: slides + '/ux/partials/Ux.html',
+            position: 3
         }];
     });
 

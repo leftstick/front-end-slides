@@ -1,7 +1,7 @@
 /**
  * ******************************************************************************************************
  *
- *  Defines the cover
+ *  Defines the ux
  *
  *  @author  Howard.Zuo
  *  @date    Dec 24th, 2014
@@ -18,7 +18,7 @@
         angular,
         Routes) {
 
-        var moduleName = 'cover';
+        var moduleName = 'ux';
 
         var module = angular.module(moduleName, []);
 

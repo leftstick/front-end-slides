@@ -1,9 +1,9 @@
 /**
  *
- *  Routes module expose route information used in cover feature
+ *  Routes module expose route information used in requirement feature
  *
  *  @author  Howard.Zuo
- *  @date    Dec 22th, 2014
+ *  @date    Dec 24th, 2014
  *
  */
 (function (define, require) {
@@ -14,9 +14,8 @@
     define([], function () {
         return [{
             when: '/requirement',
-            controller: 'RequirementController',
             templateUrl: slides + '/requirement/partials/Requirement.html',
-            position: 2
+            position: 4
         }];
     });
 
