@@ -14,7 +14,7 @@
     define([], function () {
         return [{
             when: '/notcss',
-            templateUrl: slides + '/notcss/partials/notcss.html',
+            templateUrl: slides + '/notcss/partials/Notcss.html',
             position: 9
         }];
     });
