@@ -1,7 +1,7 @@
 /**
  * ******************************************************************************************************
  *
- *  Defines the notjs
+ *  Defines the notcss
  *
  *  @author  Howard.Zuo
  *  @date    Dec 24th, 2014
@@ -18,7 +18,7 @@
         angular,
         Routes) {
 
-        var moduleName = 'notjs';
+        var moduleName = 'notcss';
 
         var module = angular.module(moduleName, []);
 
