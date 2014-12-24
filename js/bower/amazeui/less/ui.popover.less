@@ -1,0 +1,106 @@
+// Name:            Popover
+//
+// Description:     Define style for Popover Plugin
+//
+// Component:       `.am-popover`
+//
+// Sub-objects:     `.am-popover-inner`
+//                  `.am-popover-caret`
+//                  `.am-tab-panel`
+//
+// Modifiers:       `.am-popover-top`
+//                  `.am-popover-bottom`
+//                  `.am-popover-left`
+//                  `.am-popover-right`
+//
+// States:          `.am-active`
+//
+// Uses:            Nav
+//                  Animation
+//
+// =============================================================================
+
+@popover-bg: @gray-dark;
+@popover-border: @popover-bg;
+@popover-color: @white;
+@popover-border-radius: @global-radius;
+@popover-duration: 300ms;
+
+
+/* ==========================================================================
+   Component: Popover Plugin
+ ============================================================================ */
+
+.@{ns}popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  //width: 240px;
+  margin: 0;
+  border-radius: @popover-border-radius;
+  background: @popover-bg;
+  color: @popover-color;
+  border: 1px solid @popover-border;
+  display: none;
+  z-index: @z-index-popover;
+  opacity: 0;
+  transform: none;
+  transition: opacity @popover-duration;
+  .hook-popover;
+
+  &.@{ns}active {
+    display: block !important;
+    opacity: 1;
+  }
+}
+
+.@{ns}popover-inner {
+  position: relative;
+  background: @popover-bg;
+  padding: 10px;
+  z-index: 110;
+  .scrollable();
+  .hook-popover-inner;
+}
+
+.@{ns}popover-caret {
+  position: absolute;
+  left: 5px;
+  top: 0;
+  z-index: 100;
+  .caret-up(8px, @popover-bg);
+  overflow: hidden;
+
+  .hook-popover-caret;
+
+  .@{ns}popover-top & {
+    top: auto;
+    bottom: -8px;
+    transform: rotate(180deg);
+  }
+
+  .@{ns}popover-bottom & {
+    top: -8px;
+  }
+
+  .@{ns}popover-left & {
+    top: auto;
+    left: auto;
+    right: -12px;
+    transform: rotate(90deg);
+  }
+
+  .@{ns}popover-right & {
+    right: auto;
+    left: -12px;
+    transform: rotate(-90deg);
+  }
+}
+
+
+// Hooks
+// =============================================================================
+
+.hook-popover() {}
+.hook-popover-inner() {}
+.hook-popover-caret() {}

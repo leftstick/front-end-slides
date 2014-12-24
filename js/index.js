@@ -6,7 +6,7 @@
  *  @date    Dec 21th, 2014
  *
  **/
-(function (requirejs) {
+(function(requirejs) {
     'use strict';
 
     // Configure loading modules from the js directory
@@ -35,6 +35,7 @@
             'd3': 'bower/d3/d3.min',
             'require-css': 'bower/require-css',
             'tpl': 'bower/requirejs-tpl/tpl',
+            'splash': 'libs/splash'
         },
         shim: {
             'lodash': {
@@ -68,6 +69,10 @@
                 'css': 'require-css/css.min'
             }
         }
+    });
+
+    requirejs(['splash', 'css!splash'], function(splash) {
+        splash.enable('tailing');
     });
 
     requirejs(['main']);

@@ -5,18 +5,19 @@
  *  @date    Dec 21th, 2014
  *
  */
-(function (define) {
+(function(define) {
     'use strict';
 
     //specify each feature module here explicitly
     define([
         'angular',
+        'splash',
         'lodash',
         'conf/main',
         'ext/main',
         'common/main',
         'slides/main'
-    ], function (angular, _, conf, ext, common, slides) {
+    ], function(angular, splash, _, conf, ext, common, slides) {
 
         var appName = 'angular-slides';
 
@@ -32,6 +33,8 @@
             var config = conf[i];
             config.func(slides, app);
         }
+
+        splash.destroy();
 
         angular.bootstrap(document, [appName]);
 

@@ -1,0 +1,241 @@
+{
+  "style": {
+    "variables": {
+      "depStyle": []
+    },
+    "mixins": {
+      "depStyle": []
+    },
+    "base": {
+      "depStyle": []
+    },
+    "grid": {
+      "depStyle": []
+    },
+    "block-grid": {
+      "depStyle": []
+    },
+    "utility": {
+      "depStyle": []
+    },
+    "button": {
+      "depStyle": []
+    },
+    "code": {
+      "depStyle": []
+    },
+    "form": {
+      "depStyle": []
+    },
+    "image": {
+      "depStyle": []
+    },
+    "table": {
+      "depStyle": []
+    },
+    "animation": {
+      "depStyle": []
+    },
+    "article": {
+      "depStyle": []
+    },
+    "badge": {
+      "depStyle": []
+    },
+    "breadcrumb": {
+      "depStyle": []
+    },
+    "button-group": {
+      "depStyle": [
+          "button.less"
+      ]
+    },
+    "close": {
+      "depStyle": []
+    },
+    "comment": {
+      "depStyle": []
+    },
+    "icon": {
+      "depStyle": []
+    },
+    "input-group": {
+      "depStyle": [
+        "form.less",
+        "button.less"
+      ]
+    },
+    "list": {
+      "depStyle": []
+    },
+    "nav": {
+      "depStyle": []
+    },
+    "pagination": {
+      "depStyle": []
+    },
+    "panel": {
+      "depStyle": []
+    },
+    "progress": {
+      "depStyle": []
+    },
+    "thumbnail": {
+      "depStyle": []
+    },
+    "topbar": {
+      "depStyle": []
+    },
+    "print": {
+      "depStyle": []
+    }
+  },
+  "js": {
+    "core": {
+      "depStyle": [],
+      "depJs": []
+    },
+    "ui.add2home": {
+      "depStyle": [
+        "ui.add2home.less"
+      ],
+      "depJs": []
+    },
+    "ui.alert": {
+      "depStyle": [
+        "ui.alert.less",
+        "close.less"
+      ],
+      "depJs": []
+    },
+    "ui.button": {
+      "depStyle": [
+        "button.less",
+        "button-group.less"
+      ],
+      "depJs": []
+    },
+    "ui.collapse": {
+      "depStyle": [
+        "ui.component.less"
+      ],
+      "depJs": []
+    },
+    "ui.dimmer": {
+      "depStyle": [
+        "ui.component.less"
+      ],
+      "depJs": []
+    },
+    "ui.dropdown": {
+      "depStyle": [
+        "ui.dropdown.less"
+      ],
+      "depJs": []
+    },
+    "ui.flexslider": {
+      "depStyle": [],
+      "depJs": []
+    },
+    "ui.iscroll-lite": {
+      "depStyle": [],
+      "depJs": []
+    },
+    "ui.modal": {
+      "depStyle": [
+        "ui.modal.less",
+        "ui.component.less"
+      ],
+      "depJs": [
+        "ui.dimmer.js"
+      ]
+    },
+    "ui.offcanvas": {
+      "depStyle": [
+        "ui.offcanvas.less"
+      ],
+      "depJs": []
+    },
+    "ui.pinchzoom": {
+      "depStyle": [],
+      "depJs": []
+    },
+    "ui.popover": {
+      "depStyle": [
+        "ui.popover.less"
+      ],
+      "depJs": []
+    },
+    "ui.progress": {
+      "depStyle": [
+        "ui.progress.less"
+      ],
+      "depJs": []
+    },
+    "ui.pureview": {
+      "depStyle": [
+        "ui.pureview.less"
+      ],
+      "depJs": [
+        "ui.pinchzoom.js",
+        "util.hammer.js"
+      ]
+    },
+    "ui.scrollspy": {
+      "depStyle": [
+        "animation.less"
+      ],
+      "depJs": []
+    },
+    "ui.scrollspynav": {
+      "depStyle": [],
+      "depJs": [
+        "ui.smooth-scroll.less"
+      ]
+    },
+    "ui.share": {
+      "depStyle": [
+        "ui.share.less"
+      ],
+      "depJs": [
+        "util.qrcode.js"
+      ]
+    },
+    "ui.smooth-scroll": {
+      "depStyle": [],
+      "depJs": []
+    },
+    "ui.sticky": {
+      "depStyle": [
+        "ui.component.less"
+      ],
+      "depJs": []
+    },
+    "ui.tabs": {
+      "depStyle": [
+        "ui.tabs.less"
+      ],
+      "depJs": []
+    },
+    "util.cookie": {
+      "depStyle": [],
+      "depJs": []
+    },
+    "util.fastclick": {
+      "depStyle": [],
+      "depJs": []
+    },
+    "util.fullscreen": {
+      "depStyle": [],
+      "depJs": []
+    },
+    "util.hammer": {
+      "depStyle": [],
+      "depJs": []
+    },
+    "util.qrcode": {
+      "depStyle": [],
+      "depJs": []
+    }
+  }
+}
