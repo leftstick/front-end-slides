@@ -15,7 +15,7 @@
         return [{
             when: '/backcover',
             templateUrl: slides + '/backcover/partials/Backcover.html',
-            position: 11
+            position: 12
         }];
     });
 
