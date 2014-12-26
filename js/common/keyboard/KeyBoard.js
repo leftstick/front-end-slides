@@ -3,13 +3,13 @@
  *  Defines keyboard service
  *
  *  @author  Howard.Zuo
- *  @date    Dec 21th, 2014
+ *  @date    Dec 26th, 2014
  *
  */
-(function (define, global) {
+(function(define, global) {
     'use strict';
 
-    define(['angular', 'keymaster'], function (angular, key) {
+    define(['angular', 'keymaster'], function(angular, key) {
 
         var modulename = 'KeyBoard';
 
@@ -24,21 +24,21 @@
             '$rootScope',
             'Routes',
             '$location',
-            function ($rootScope, Routes, $location) {
+            function($rootScope, Routes, $location) {
 
-                var findCurIndex = function () {
+                var findCurIndex = function() {
                     return _.findIndex(Routes, {
                         when: $location.path()
                     });
                 };
 
-                var changePath = function (path) {
-                    $rootScope.$apply(function () {
+                var changePath = function(path) {
+                    $rootScope.$apply(function() {
                         $location.path(path);
                     });
                 };
 
-                key('up, left', function (e, handler) {
+                key('up, left', function(e, handler) {
                     var when = $location.path();
                     var index = findCurIndex();
                     if (index < 1) {
@@ -53,7 +53,7 @@
                     changePath(Routes[prevIndex].when);
                 });
 
-                key('down, right', function (e, handler) {
+                key('down, right, space', function(e, handler) {
                     var when = $location.path();
                     var index = findCurIndex();
                     if (index >= Routes.length - 1) {
@@ -68,15 +68,15 @@
                     changePath(Routes[nextIndex].when);
                 });
 
-                key('home', function (e, handler) {
+                key('home', function(e, handler) {
                     var index = findCurIndex();
                     if (index < 1) {
                         return false;
                     }
-                    changePath(Routes[1].when);
+                    changePath(Routes[0].when);
                 });
 
-                key('end', function (e, handler) {
+                key('end', function(e, handler) {
                     var index = findCurIndex();
                     if (index > Routes.length) {
                         return false;

@@ -3,13 +3,13 @@
  *  Defines SlideAnimation
  *
  *  @author  Howard.Zuo
- *  @date    Dec 21th, 2014
+ *  @date    Dec 26th, 2014
  *
  */
-(function (define, global) {
+(function(define, global) {
     'use strict';
 
-    define(['angular', 'keymaster'], function (angular, key) {
+    define(['angular', 'keymaster'], function(angular, key) {
 
         var modulename = 'SlideAnimation';
 
@@ -17,18 +17,19 @@
 
         var $body = $('body');
 
-        key('up, left, home, down, right, end', function (e, handler) {
+        key('up, left, home, down, right, end, space', function(e, handler) {
             switch (handler.key) {
-            case 'up':
-            case 'left':
-            case 'home':
-                $body.removeClass('afterward').addClass('forward');
-                break;
-            case 'down':
-            case 'right':
-            case 'end':
-                $body.removeClass('forward').addClass('afterward');
-                break;
+                case 'up':
+                case 'left':
+                case 'home':
+                    $body.removeClass('afterward').addClass('forward');
+                    break;
+                case 'down':
+                case 'right':
+                case 'space':
+                case 'end':
+                    $body.removeClass('forward').addClass('afterward');
+                    break;
             }
         });
         return {
