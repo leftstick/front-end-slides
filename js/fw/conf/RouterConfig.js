@@ -55,10 +55,7 @@
                     });
                 }
 
-                $locationProvider.html5Mode({
-                    enabled: false,
-                    requireBase: true
-                });
+                $locationProvider.html5Mode(false);
             }]);
 
             var routes = _.chain(slides)
