@@ -26,7 +26,7 @@
             'jquery': 'bower/jquery/dist/jquery.min',
             'keymaster': 'bower/keymaster/keymaster',
             'hammer': 'bower/hammerjs/hammer.min',
-            'jquery-wechat': 'bower/jquery-wechat/dist/jquery-wechat.min',
+            'jquery-wechat': 'bower/jquery-wechat/jquery-wechat.min',
             'angular': 'bower/angular/angular.min',
             'angular-route': 'bower/angular-route/angular-route.min',
             'angular-animate': 'bower/angular-animate/angular-animate.min',
