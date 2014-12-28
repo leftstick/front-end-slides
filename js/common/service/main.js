@@ -1,6 +1,6 @@
 /**
  *
- *  The entrance of UI.
+ *  The entrance of service.
  *
  *  @author  Howard.Zuo
  *  @date    Dec 28th, 2014
@@ -10,9 +10,7 @@
     'use strict';
 
     define([
-        './KeyboardHint',
-        './ProgressBar',
-        './SectionIdentifier'
+        './SlidesSwitch',
     ], function () {
         return [].slice.apply(arguments);
     });

@@ -3,10 +3,10 @@
  *  A require module should contain require configurations.
  *
  *  @author  Howard.Zuo
- *  @date    Dec 21th, 2014
+ *  @date    Dec 28th, 2014
  *
  **/
-(function(requirejs) {
+(function (requirejs) {
     'use strict';
 
     // Configure loading modules from the js directory
@@ -25,17 +25,18 @@
             'lodash': 'bower/lodash/dist/lodash.min',
             'jquery': 'bower/jquery/dist/jquery.min',
             'keymaster': 'bower/keymaster/keymaster',
+            'hammer': 'bower/hammerjs/hammer.min',
             'angular': 'bower/angular/angular.min',
             'angular-route': 'bower/angular-route/angular-route.min',
             'angular-animate': 'bower/angular-animate/angular-animate.min',
             'ngprogress': 'bower/ngprogress/build/ngProgress.min',
             'ngprogress-css': 'bower/ngprogress/ngProgress',
             'amazeui-css': 'bower/amazeui/dist/css/amazeui.min',
-            'amazeui': 'bower/amazeui/dist/js/amazeui.min',
             'd3': 'bower/d3/d3.min',
             'require-css': 'bower/require-css',
             'tpl': 'bower/requirejs-tpl/tpl',
-            'splash': 'libs/splash'
+            'splash': 'libs/splash',
+            'mobileDetect': 'libs/mobileDetect'
         },
         shim: {
             'lodash': {
@@ -71,7 +72,7 @@
         }
     });
 
-    requirejs(['splash', 'css!splash'], function(splash) {
+    require(['splash', 'css!splash'], function (splash) {
         splash.enable('tailing');
     });
 

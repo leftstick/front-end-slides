@@ -10,9 +10,12 @@
     'use strict';
 
     define([
+        'jquery',
         'keymaster',
+        'hammer',
         'angular',
         'angular-route',
+        'mobileDetect',
         'ngprogress',
         'angular-animate',
         'css!ngprogress-css',

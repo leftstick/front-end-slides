@@ -6,7 +6,7 @@
  *  @date    Dec 22th, 2014
  *
  **/
-(function(define) {
+(function (define) {
     'use strict';
 
     define([
@@ -20,8 +20,9 @@
         './overview/main',
         './requirement/main',
         './ux/main',
+        './video/main',
         './why/main'
-    ], function(backcover, compatibility, cover, development, learn, notcss, notjs, overview, requirement, ux, why) {
+    ], function (backcover, compatibility, cover, development, learn, notcss, notjs, overview, requirement, ux, video, why) {
         var values = [];
         values.push(backcover);
         values.push(compatibility);
@@ -33,6 +34,7 @@
         values.push(overview);
         values.push(requirement);
         values.push(ux);
+        values.push(video);
         values.push(why);
         return values;
     });
