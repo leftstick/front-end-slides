@@ -26,6 +26,7 @@
             'jquery': 'bower/jquery/dist/jquery.min',
             'keymaster': 'bower/keymaster/keymaster',
             'hammer': 'bower/hammerjs/hammer.min',
+            'jquery-wechat': 'bower/jquery-wechat/dist/jquery-wechat.min',
             'angular': 'bower/angular/angular.min',
             'angular-route': 'bower/angular-route/angular-route.min',
             'angular-animate': 'bower/angular-animate/angular-animate.min',
@@ -44,6 +45,9 @@
             },
             'jquery': {
                 exports: '$'
+            },
+            'jquery-wechat': {
+                deps: ['jquery']
             },
             'keymaster': {
                 exports: 'key'
@@ -70,6 +74,10 @@
                 'css': 'require-css/css.min'
             }
         }
+    });
+
+    require(['jquery', 'jquery-wechat'], function ($) {
+        $.wechat.enable();
     });
 
     require(['splash', 'css!splash'], function (splash) {

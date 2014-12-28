@@ -1,0 +1,21 @@
+{
+    "browser": true,
+    "esnext": true,
+    "globals": {
+        "angular": true,
+        "define": true,
+        "require": true,
+        "console": true,
+        "alert": true,
+        "Chartist": true,
+        "jQuery": true,
+        "$tooltip": true,
+        "module": true,
+        "requirejs": true
+    },
+    "globalstrict": true,
+    "quotmark": true,
+    "undef": true,
+    "unused": true,
+    "sub": true
+}
