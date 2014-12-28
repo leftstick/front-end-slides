@@ -29,6 +29,7 @@
             'jquery-wechat': 'bower/jquery-wechat/jquery-wechat.min',
             'angular': 'bower/angular/angular.min',
             'angular-route': 'bower/angular-route/angular-route.min',
+            'angular-touch': 'bower/angular-touch/angular-touch.min',
             'angular-animate': 'bower/angular-animate/angular-animate.min',
             'ngprogress': 'bower/ngprogress/build/ngProgress.min',
             'ngprogress-css': 'bower/ngprogress/ngProgress',
@@ -60,6 +61,9 @@
                 deps: ['lodash', 'jquery']
             },
             'angular-route': {
+                deps: ['angular']
+            },
+            'angular-touch': {
                 deps: ['angular']
             },
             'angular-animate': {

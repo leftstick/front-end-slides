@@ -15,6 +15,7 @@
         'hammer',
         'angular',
         'angular-route',
+        'angular-touch',
         'mobileDetect',
         'ngprogress',
         'angular-animate',
@@ -25,6 +26,8 @@
 
         return [{
             name: 'ngRoute'
+        }, {
+            name: 'ngTouch'
         }, {
             name: 'ngAnimate'
         }, {
