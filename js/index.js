@@ -78,6 +78,12 @@
 
     require(['jquery', 'jquery-wechat'], function ($) {
         $.wechat.enable();
+        $.wechat.setShareOption({
+            title: 'What is Front-End',
+            desc: 'A slides tell what Front-End is, and what makes product successful!',
+            link: 'http://leftstick.github.io/front-end-slides/',
+            img_url: 'http://leftstick.github.io/front-end-slides/img/thumb.png'
+        });
     });
 
     require(['splash', 'css!splash'], function (splash) {
