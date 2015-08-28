@@ -1,0 +1,126 @@
+{
+ "name": "UX",
+ "children": [
+  {
+   "name": "User",
+   "children": [
+    {
+     "name": "User life style",
+     "children": [
+         {
+             "name": "methodology"
+         }
+     ]
+    },
+    {
+     "name": "value"
+    },
+    {
+     "name": "habit",
+     "children": [
+         {
+             "name": "communication skills"
+         }
+     ]
+    },
+    {
+     "name": "emotion"
+    },
+    {
+     "name": "requirements",
+     "children": [
+         {
+             "name": "Analysis skills"
+         },{
+             "name": "Usability sense"
+         }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Interaction",
+   "children": [
+    {
+        "name": "Requirement Research",
+        "children": [
+            {
+                "name": "Personas"
+            },
+            {
+                "name": "Scenarios"
+            },
+            {
+                "name": "Storyboards"
+            },
+            {
+                "name": "Sitemap"
+            }
+        ]
+    },
+    {
+        "name": "GUI infrastructure",
+        "children": [
+            {
+                "name": "Wireframes"
+            }
+        ]
+    },
+    {"name": "Process Design"},
+    {"name": "Prototype Design"},
+    {
+        "name": "Usability Test",
+        "children": [
+            {
+                "name": "Behavior"
+            },
+            {
+                "name": "functionality"
+            },
+            {
+                "name": "Usability"
+            }
+        ]
+    }
+   ]
+  },
+  {
+   "name": "Product",
+   "children": [
+       {
+           "name": "Aesthetics"
+       },
+       {
+           "name": "Style",
+           "children": [
+               {
+                   "name": "Web",
+                   "children": [
+                       {
+                           "name": "Sketch"
+                       }
+                   ]
+               },
+               {
+                   "name": "Software",
+                   "children": [
+                       {
+                           "name": "Photoshop"
+                       }
+                   ]
+               },
+               {
+                   "name": "Illustrator"
+               },
+               {
+                   "name": "Fireworks"
+               },
+               {
+                   "name": "InVision"
+               }
+           ]
+       }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+.reveal section img{
+    border: transparent;
+    background: transparent;
+}
+
+.correct-icon{
+    font-size: 80px;
+    color: #04b600;
+}
+
+.error-icon{
+    font-size: 20px;
+    margin-left: -30px;
+    color: #e60505;
+}
+
+
+circle.node {
+  cursor: pointer;
+  stroke: #000;
+  stroke-width: .5px;
+}
+
+line.link {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+table{
+    font-size: 80% !important;
+}

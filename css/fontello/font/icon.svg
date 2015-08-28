@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2015 by original authors @ fontello.com</metadata>
+<defs>
+<font id="icon" horiz-adv-x="1000" >
+<font-face font-family="icon" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="right-big" unicode="&#xe800;" d="m821 314q0-30-20-50l-363-364q-22-20-51-20-29 0-50 20l-42 42q-22 21-22 51t22 51l163 163h-393q-29 0-47 21t-18 51v71q0 30 18 51t47 20h393l-163 164q-22 21-22 51t22 50l42 42q21 21 50 21 29 0 51-21l363-363q20-20 20-51z" horiz-adv-x="857.1" />
+<glyph glyph-name="ok" unicode="&#xe801;" d="m1179 778q-250-222-600-750l-115-179q-144 180-464 500l107 107 286-250q150 150 279 272t206 187 131 111 77 59l21 14q4 0 11-2t26-19 35-50z" horiz-adv-x="1179" />
+<glyph glyph-name="cancel" unicode="&#xe802;" d="m654 349l346-346-154-154-346 346-346-346-154 154 346 346-346 346 154 154 346-346 346 346 154-154z" horiz-adv-x="1000" />
+<glyph glyph-name="resize-horizontal" unicode="&#xe803;" d="m0 350l254 254 0-170 492 0 0 170 254-254-254-254 0 170-492 0 0-170z" horiz-adv-x="1000" />
+<glyph glyph-name="code" unicode="&#xe804;" d="m1000 849l500-500-500-500-154 154 346 346-346 346z m-692-500l346-346-154-154-500 500 500 500 154-154z" horiz-adv-x="1500" />
+<glyph glyph-name="eye" unicode="&#xe805;" d="m929 314q-85 132-213 197 34-58 34-125 0-104-73-177t-177-73-177 73-73 177q0 67 34 125-128-65-213-197 75-114 187-182t242-68 242 68 187 182z m-402 215q0 11-8 19t-19 7q-70 0-120-50t-50-119q0-12 8-19t19-8 19 8 8 19q0 48 34 82t82 34q11 0 19 8t8 19z m473-215q0-19-11-38-78-129-210-206t-279-77-279 77-210 206q-11 19-11 38t11 39q78 128 210 205t279 78 279-78 210-205q11-20 11-39z" horiz-adv-x="1000" />
+<glyph glyph-name="rss" unicode="&#xe806;" d="m0-150l0 199q82 0 141-58t58-141l-199 0z m0 400l0 200q248 0 424-176t176-424l-200 0q0 166-117 283t-283 117z m0 401l0 199q203 0 389-79t319-213 213-319 79-389l-199 0q0 217-108 401t-292 292-401 108z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
